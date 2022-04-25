@@ -1,81 +1,76 @@
 * {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    scroll-padding: 10rem;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
 }
 
 :root {
-
-    /*colors*/
-    --principal-pink: #ed217c;
-    --white: #ECECEC;
-    /*fonts*/
-    --principal: "Righteous", cursive;
+  /*colors*/
+  --principal-pink: #ed217c;
+  --white: #ececec;
+  /*fonts*/
+  --principal: "Righteous", cursive;
 }
-
 
 body {
-    font-family: var(--principal);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #131219;
+  font-family: var(--principal);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131219;
 }
-  
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
 body::-webkit-scrollbar {
-  
-    width: 5px;
-    background-color: RGBA(23,22,29, .7);
+  width: 5px;
+  background-color: RGBA(23, 22, 29, 0.7);
 }
-  
+
 body::-webkit-scrollbar-thumb {
-    background-color: #ed217c;
-    border-radius: 50px;
+  background-color: #ed217c;
+  border-radius: 50px;
 }
-  
+
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .spinner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45vh;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 0 2%;
-    max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 1400px;
 }
-  
+
 p {
-    line-height: 30px;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  line-height: 30px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
 }
-  
+
 footer p {
-    color: #ECECEC;
-    text-align: center;
-    padding-bottom: 1rem;
-    font-family: "Righteous", cursive;
+  color: #ececec;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: "Righteous", cursive;
 }
-  
-  
-  @media (min-width: 800px) {
-    body::-webkit-scrollbar {
-      width: 10px;
-    }
+
+@media (min-width: 800px) {
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
 }
-  
-  @media (max-width: 768px) {
-    .container {
-      padding: 0 5%;
-    }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5%;
+  }
 }
-  
-  

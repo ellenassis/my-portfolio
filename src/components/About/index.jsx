@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h1>Quem sou</h1>
+        <h2>Quem sou</h2>
         <p>
           Olá! Me chamo Ellen, sou formada em Análise e Desenvolvimento de
           Sistemas e tenho experiência com desenvolvimento front-end há mais de

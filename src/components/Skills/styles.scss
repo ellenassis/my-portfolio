@@ -1,10 +1,11 @@
 .skills {
-  h1 {
-    color: #ed217c;
-    margin-top: 8vh;
+  h2 {
+    margin-top: 10vh;
+    color: var(--principal-pink);
     font-size: 30px;
   }
-  h2 {
+
+  h3 {
     font-size: 15px;
     color: #ececec;
     font-family: "Open Sans", sans-serif;
@@ -12,83 +13,10 @@
     margin-top: 1vh;
   }
 
-  .carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    width: 100%;
-  }
-
-  .carousel::-webkit-scrollbar {
-    display: none;
-  }
-
-  .skill-card {
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    margin-top: 5vh;
-    background-image: linear-gradient(60deg, #17161d 0%, #211e25 100%);
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 0 5px #111114;
-    flex: none;
-  }
-
-  .image img {
-    width: 30%;
-    margin-top: 20px;
-  }
-
-  .skill-info {
-    .title {
-      color: #ececec;
-      font-size: 16px;
-      display: block;
-      margin-bottom: 15px;
-    }
-    .text {
-      color: #ececec;
-      font-size: 12px;
-      opacity: 0.7;
-    }
-  }
-  @media (max-width: 768px) {
-    text-align: center;
-  }
-
-  @media (min-width: 800px) {
-    .carousel {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-    }
-
-    .skill-card {
-      width: 200px;
-      height: 200px;
-      margin-top: 30px;
-      background-image: linear-gradient(60deg, #17161d 0%, #211e25 100%);
-      margin-left: 20px;
-      border-radius: 10px;
-      box-shadow: 10px 0 5px #111114;
-    }
-
-    .image img {
-      width: 35%;
-      margin-top: 20px;
-    }
-
-    .skill-info {
-      title {
-        font-size: 16px;
-      }
-      .text {
-        font-size: 12px;
-        opacity: 0.7;
-      }
-    }
+  p {
+    color: var(--white);
+    padding: 10px;
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
   }
 }
