@@ -1,0 +1,45 @@
+.contact {
+  text-align: center;
+  margin: 16vh auto;
+
+  .contact-info {
+    h3 {
+      font-size: 30px;
+      color: #ececec;
+    }
+    p {
+      color: #ececec;
+      opacity: 0.5;
+      margin: 25px auto 0 auto;
+      width: 40rem;
+    }
+  }
+
+  .email > a {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #17161d;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+  }
+
+  .email a {
+    color: #ececec;
+    text-decoration: none;
+  }
+
+  .email a img {
+    width: 10%;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+  }
+
+  @media (max-width: 768px) {
+    .contact-info p {
+      width: 100%;
+    }
+  }
+}
