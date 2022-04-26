@@ -30,7 +30,6 @@ function Home() {
       <Hero />
       <About />
       <Works />
-      <Skills />
       <Contact />
       <footer>
         <p>&copy; 2021 | Ellen Penteado de Assis</p>

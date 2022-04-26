@@ -28,11 +28,11 @@ function Header() {
                 Projetos
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/#skills" onClick={() => setClick(!click)}>
                 Habilidades
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/#contact" onClick={() => setClick(!click)}>
                 Contato

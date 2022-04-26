@@ -8,10 +8,10 @@ export default function About() {
       <div className="container">
         <h2>Quem sou</h2>
         <p>
-          Olá! Me chamo Ellen, sou formada em Análise e Desenvolvimento de
+          Olá! Me chamo Ellen, sou graduada em Análise e Desenvolvimento de
           Sistemas e tenho experiência com desenvolvimento front-end há mais de
-          1 ano. Atuei como desenvolvedora front-end durante 2 meses em uma
-          agência.
+          1 ano. Atuei como desenvolvedora em uma agência de publicidade e também fui voluntária. Atualmente sou freelancer 
+          e sigo estudando e desenvolvendo novos projetos. 
         </p>
         <p>
           Meu foco é aprimorar minhas habilidades tanto técnicas como pessoais e
