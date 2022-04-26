@@ -32,7 +32,7 @@ function Home() {
       <Works />
       <Contact />
       <footer>
-        <p>&copy; 2021 | Ellen Penteado de Assis</p>
+        <p>&copy; 2022 | Ellen Penteado de Assis</p>
       </footer>
       </>
       )}

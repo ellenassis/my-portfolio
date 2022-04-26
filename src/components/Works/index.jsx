@@ -5,7 +5,7 @@ import "./styles.scss";
 import project1 from "../../images/bertolazzi.png";
 import project2 from "../../images/bakery.png";
 import project3 from "../../images/quinthal.png";
-import project4 from "../../images/horaempresas.png";
+import project4 from "../../images/hora-empresas.png";
 
 export default function Projects() {
   return (
