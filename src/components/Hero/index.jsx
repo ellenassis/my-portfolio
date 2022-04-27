@@ -37,7 +37,7 @@ function Hero() {
               </a>
             </div>
             <button>
-              <a href="">Resumo</a>
+              <a href="/resume.pdf" target="_blank">Resumo</a>
             </button>
           </div>
           <div className="person">
