@@ -136,8 +136,21 @@
 
   @media (max-width: 450px) {
     .hero .title {
-      font-size: 12px;
+      font-size: 14px;
       text-align: center;
     }
+    .typing-animation {
+      animation: none;
+    }
+    .typing {
+      border-right: 0;
+      overflow: visible;
+    }
   }
+
+  @media (max-width: 300px) {
+    .hero .title {
+      font-size: 12px;
+    }
+}
 }
