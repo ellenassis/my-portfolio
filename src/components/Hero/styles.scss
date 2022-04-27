@@ -133,14 +133,8 @@
     }
   }
 
-  @media (max-width: 450px) {
-    .hero .title {
-      font-size: 14px;
-      text-align: center;
-    }
-  }
 
-  @media (max-width: 280px) {
+  @media (max-width: 450px) {
     .hero .title {
       font-size: 12px;
       text-align: center;
