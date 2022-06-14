@@ -43,20 +43,6 @@ export default function Projects() {
               </p>
             </div>
           </div>
-
-          <div className="card">
-            <div className="card-content">
-              <h3>Quinthal Presença</h3>
-              <a href="https://one-page-quinthal.vercel.app/" target="_blank">
-                <img src={project3} alt="project3" />
-              </a>
-              <p>
-                Quinthal Presença é uma landing page para contratação de
-                eventos, focada em mostrar fotos do ambiente e serviços
-                oferecidos.
-              </p>
-            </div>
-          </div>
           <div className="card">
             <div className="card-content">
               <h3>Hora empresas</h3>
