@@ -10,8 +10,7 @@ export default function About() {
         <p>
           Olá! Me chamo Ellen, sou graduada em Análise e Desenvolvimento de
           Sistemas e tenho experiência com desenvolvimento front-end há mais de
-          1 ano. Atuei como desenvolvedora em uma agência de publicidade e também fui voluntária em um projeto para uma ONG que promove desenvolvimento sustentável através da conexão entre pessoas, microempreendores, ONGs e empresas . Atualmente sou freelancer 
-          e sigo estudando e desenvolvendo novos projetos. 
+          1 ano.  
         </p>
         <p>
           Meu foco é aprimorar tanto minhas soft quanto hard skills e
