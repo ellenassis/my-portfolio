@@ -2,10 +2,10 @@ import React from "react";
 
 import "./styles.scss";
 
-import project1 from "../../images/bakery.png";
-import project2 from "../../images/ecommerce.png";
-import project3 from "../../images/bertolazzi.png";
-import project4 from "../../images/hora-empresas.png";
+import bakeryImg from "../../images/bakery.png";
+import quizImge from "../../images/quiz.png";
+import toDoListImg from "../../images/to-do.png";
+import eCommerceImg from "../../images/ecommerce.png";
 
 export default function Projects() {
   return (
@@ -20,8 +20,8 @@ export default function Projects() {
           <div className="card">
             <div className="card-content">
               <h3>Dream Bakery</h3>
-              <a href="https://dreambakery.netlify.app/" target="_blank">
-                <img src={project1} alt="project2" />
+              <a href="https://dreambakery.netlify.app/" target="_blank" rel="noreferrer">
+                <img src={bakeryImg} alt="Imagem da padaria" />
               </a>
               <p>
                 Projeto pessoal desenvolvido para mostrar o cardápio do local e
@@ -32,37 +32,36 @@ export default function Projects() {
           </div>
           <div className="card">
             <div className="card-content">
+              <h3>Quiz</h3>
+              <a href="https://chic-bienenstitch-b40303.netlify.app/" target="_blank" rel="noreferrer">
+                <img src={quizImge} alt="Imagem do quiz de JavaScript" />
+              </a>
+              <p>
+                  Quiz para testar conhecimentos de JavaScript. É composto por 10 questões, a cada alternativa escolhida é mostrado
+                  a resposta certa e no final aparece o resultado.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <h3>To do list</h3>
+              <a href="https://mytodolist2022.netlify.app/" target="_blank" rel="noreferrer">
+                <img src={toDoListImg} alt="Imagem da lista de tarefas" />
+              </a>
+              <p>Lista de tarefas para organizar o dia. Permite excluir e marcar como concluída.</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
               <h3>E-commerce</h3>
               <a href="#">
-                <img src={project2} alt="project3" />
+                <img src={eCommerceImg} alt="Imagem do e-commerce" />
               </a>
               <p>
                 O e-commerce Magic é um projeto pessoal simulando uma fast
                 fashion, com carrinho de compras e favoritos. O projeto está em
                 andamento.
               </p>
-            </div>
-            </div>
-          <div className="card">
-            <div className="card-content">
-              <h3>Casa Bertolazzi</h3>
-              <a href="https://bertolazzi.vercel.app/" target="_blank">
-                <img src={project3} alt="project1" />
-              </a>
-              <p>
-                A Casa Bertolazzi é uma landing page voltada para mostrar os
-                espaços e tipos de eventos oferecidos, com possibilidade de
-                solicitar um orçamento.
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <h3>Hora empresas</h3>
-              <a href="https://hora-empresas.vercel.app/" target="_blank">
-                <img src={project4} alt="project4" />
-              </a>
-              <p>Website para contratação de serviços voltado para empresas.</p>
             </div>
           </div>
         </div>
