@@ -22,7 +22,7 @@ function Hero() {
             </h1>
             <div className="icons">
               <a
-                href="https://www.linkedin.com/in/ellenpenteado/"
+                href="https://www.linkedin.com/in/ellendeassis/"
                 rel="noreferrer"
                 target="_blank"
               >
