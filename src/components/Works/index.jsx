@@ -29,8 +29,8 @@ export default function Projects() {
               </a>
               <p>
                 O projeto é um website com o intuito de pesquisar pokémons e ver
-                suas respectivas evoluções, seus status, e suas habilidades. Foi
-                consumido dados da PokeAPI.
+                suas respectivas evoluções, seus status, e suas habilidades. Dados fornecidos
+                pela PokeAPI.
               </p>
             </div>
           </div>
