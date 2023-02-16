@@ -21,7 +21,7 @@ export default function Projects() {
             <div className="card-content">
               <h3>Pokémon</h3>
               <a
-                href="https://dreambakery.netlify.app/"
+                href="https://ellenassis-pokemon.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -33,18 +33,22 @@ export default function Projects() {
                 consumido dados da PokeAPI.
               </p>
             </div>
-            <div className="card">
-              <div className="card-content">
-                <h3>Dream Bakery</h3>
-                <a href="#">
-                  <img src={bakeryImg} alt="Imagem do website Dream Bakery" />
-                </a>
-                <p>
-                  Projeto desenvolvido com intuito de mostrar o cardápio do local
-                  e avaliações, com uma interface agradavél para atrair mais
-                  clientes.
-                </p>
-              </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <h3>Dream Bakery</h3>
+              <a
+                href="https://dreambakery.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={bakeryImg} alt="Imagem do website Dream Bakery" />
+              </a>
+              <p>
+                Projeto desenvolvido com intuito de mostrar o cardápio do local
+                e avaliações, com uma interface agradavél para atrair mais
+                clientes.
+              </p>
             </div>
           </div>
           <div className="card">
