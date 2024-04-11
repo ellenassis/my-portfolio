@@ -25,9 +25,10 @@ function Contact() {
             <a
               href="http://api.whatsapp.com/send?1=pt_BR&phone=5511970516022"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={Whatsapp} alt="" />
-              (11) 97051-6022
+              (11) 91663-4302
             </a>
           </div>
         </div>
