@@ -8,11 +8,11 @@ export default function About() {
       <div className="container">
         <h2>Quem sou</h2>
         <p>
-          Entusiasta com o desenvolvimento de interfaces web, tenho mais de 1
-          ano de experiência com desenvolvimento Front-End. Trabalhei com o
+          Entusiasta com o desenvolvimento de interfaces web, tenho 2
+          anos de experiência com desenvolvimento Front-End. Trabalhei com o
           desenvolvimento de páginas dinâmicas, interativas e aplicações de
           página única (SPA). Aqui estão algumas das ferramentas com as quais já
-          trabalhei: HTML, CSS, JavaScript, React, Vue, Styled Components SASS,
+          trabalhei: HTML, CSS, JavaScript, React, Vue, Nuxt.js, Next.js, Styled Components SASS,
           API REST, Git. Atualmente desenvolvo no Front-end com foco na
           acessibilidade ​​e otimização de desempenho.
         </p>
