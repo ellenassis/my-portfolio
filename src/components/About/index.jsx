@@ -12,7 +12,7 @@ export default function About() {
           anos de experiência com desenvolvimento Front-End. Trabalhei com o
           desenvolvimento de páginas dinâmicas, interativas e aplicações de
           página única (SPA). Aqui estão algumas das ferramentas com as quais já
-          trabalhei: HTML, CSS, JavaScript, React, Vue, Nuxt.js, Next.js, Styled Components SASS,
+          trabalhei: HTML, CSS, JavaScript, React, Vue, Nuxt.js, Next.js, Tailwind CSS, Styled Components, SASS,
           API REST, Git. Atualmente desenvolvo no Front-end com foco na
           acessibilidade ​​e otimização de desempenho.
         </p>
